@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+/*Riquadro con il contenuto della pagina*/
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 15px 150px;
+  padding: 60px 100px 10px 100px;
+}
+
+/*Stile Logo e Titolo*/
+header>img {
+  display: block;
+  margin: auto;
+  width: 220px;
+  height: 100px;
+}
+
+h1 {
+  color: lime;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+/*Menu di navigazione*/
+nav {
+  text-align: center;
+  background-color: lime;
+  padding: 10px;
+}
+
+/*Stile riquadro monopattino*/
+section {
+  color: white;
+  margin: 20px 10px;
+}
+
+h2 {
+  display: inline;
+}
+
+span {
+  display: block;
+  color: lightgrey;
+  padding: 2px;
+}
+
+span.arrow:before {
+  content: "⤐ "
+}
+
+/*Barra "Stato Carica" monopattino"*/
+span.bar {
+  height: 20px;
+  border-radius: 5px;
+}
+
+span.orange {
+  background-color: orange;
+  width: 35%;
+}
+
+span.green {
+  background-color: green;
+  width: 65%;
+}
+
+span.red {
+  background-color: red;
+  width: 20%;
+}
+
+/*Firma*/
+footer {
+  padding-top: 60px;
+  font: 12px lightgrey;
+}
